@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+:root {
+  --primary-color: #f2f5eb;
+  --secondary-color: #272a22;
+  --terciary-color: #386c50;
+  --alternative-color: #e34856;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+  
+
+  
+  /* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  
+ }
+  
+  
+  body {
+    padding: 10px;
+    min-height: 100vh;
+    background-color:  var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+  .header {
+    position: fixed;
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--alternative-color);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .content {
+  position:relative;
+  top: 100px;
+  padding: 10px;
+  border-bottom: 2px solid var(--alternative-color);
+  }
+
+  button {
+    background-color: var(--alternative-color);
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h1, h2, h3 {
+  color: var(--terciary-color);
+  }
+
+  .features {
+    color: var(--terciary-color);
+    text-align: center;
+    border-bottom: 2px solid var(--alternative-color);
+    border-top: 2px solid var(--alternative-color);
+    position:relative;
+    top: 100px;  
+    padding: 10px;
+
+  }
+
+  .sidebar {
+    position:relative;
+    width: 30%;
+    left:70%;
+    border: 2px solid var(--alternative-color);
+    padding: 10px;
+    top: 100px;
+    margin: 5px;
+
+  }
+
+ul {
+  padding: 10px 20px;
+}
+
+  .footer {
+    position:sticky;
+    text-align: center;
+    margin-top: 30%;
+    border-top: 2px solid var(--alternative-color);
+    padding: 10px;
+  }
